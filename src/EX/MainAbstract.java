@@ -1,6 +1,6 @@
 package EX;
 
-public class MainAbstract {
+public class  MainAbstract {
     public static void main(String[] args) {
         System.out.println("Tiger :");
         Tiger Tiger = new Tiger();

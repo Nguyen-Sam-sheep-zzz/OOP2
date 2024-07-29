@@ -16,7 +16,15 @@ public class Rectangular extends Rectangle {
         this.height = height;
     }
 
+    public double getSurroundingArea() {
+        return (getWidth() + getLength()) * getHeight() * 2;
+    }
+
+    public double getTotalArea() {
+        return getSurroundingArea() + 2 * getWidth() * getLength();
+    }
+
     public double getVolume() {
-        return getArea() * height;
+        return getArea() * getHeight();
     }
 }

@@ -5,6 +5,7 @@ public class Square extends Geometric{
 
     public Square(String name, double width) {
         super(name);
+        this.width = width;
     }
 
     public double getWidth() {
