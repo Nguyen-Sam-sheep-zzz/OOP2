@@ -1,2 +1,4 @@
-package Lap_3.Th1;public class Fruit {
+package Lap_3.Th1;
+
+public abstract class Fruit implements Edible {
 }

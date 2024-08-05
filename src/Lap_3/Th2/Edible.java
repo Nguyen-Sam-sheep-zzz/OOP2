@@ -1,2 +1,5 @@
-package Lap_3.Th2;public interface Edible {
+package Lap_3.Th2;
+
+public interface Edible {
+    String howToEat();
 }

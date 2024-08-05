@@ -1,2 +1,5 @@
-package EX;public class EX_LAP_3 {
+package EX;
+
+public class EX_LAP_3 {
+
 }
