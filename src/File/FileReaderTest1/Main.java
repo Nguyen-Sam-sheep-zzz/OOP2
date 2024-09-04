@@ -36,7 +36,7 @@ public class Main {
         String filePath = "example.txt";
 
         // Dữ liệu cần ghi vào tệp
-        String dataToWrite = "TammyPham\nBeTammy.";
+        String dataToWrite = "TammyPham\nBeTammy. 18\n20 ";
 
         // Ghi dữ liệu vào tệp
         boolean writeSuccess = writeToFile(filePath, dataToWrite);

@@ -1,11 +1,11 @@
 package File.Test;
 
 public class Student {
-    int idStudent;
-    String name;
-    double toan;
-    double ly;
-    double hoa;
+    private int idStudent;
+    private String name;
+    private double toan;
+    private double ly;
+    private double hoa;
 
 
     Student(int idStudent, String name, double toan, double ly, double hoa) {
